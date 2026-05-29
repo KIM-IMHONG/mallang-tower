@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>말랑타워 (Mallang Tower)</title>
+<link href="https://fonts.googleapis.com/css2?family=Gaegu:wght@700&display=swap" rel="stylesheet">
+<style>
+  :root{ --ink:#5B4A3F; --sub:#7A6553; --point:#FF9E6B; --card:#FFFDF8; }
+  *{ box-sizing:border-box; margin:0; }
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Pretendard","Malgun Gothic",sans-serif;
+    color:var(--ink); line-height:1.7;
+    background:linear-gradient(160deg,#BFE0FF 0%,#DCEBFF 26%,#FFEAD2 72%,#FFD9B8 100%);
+    min-height:100vh; display:flex; align-items:center; justify-content:center; padding:32px 18px;
+  }
+  .card{ background:var(--card); border-radius:28px; padding:44px 36px; max-width:520px; width:100%;
+    box-shadow:0 14px 40px rgba(91,74,63,.12); border:2px solid #F0E4D2; text-align:center; }
+  .logo{ font-family:'Gaegu',cursive; font-size:54px; font-weight:700; }
+  .tag{ color:var(--sub); font-size:17px; margin-top:4px; margin-bottom:28px; }
+  .links{ display:flex; flex-direction:column; gap:12px; margin-top:8px; }
+  a.btn{ display:block; text-decoration:none; font-weight:800; font-size:16px; color:var(--ink);
+    background:#FFF1E6; border:2px solid #FFD9BE; border-radius:999px; padding:14px 20px; transition:transform .1s; }
+  a.btn:hover{ transform:translateY(-2px); }
+  .store{ background:var(--point); border-color:var(--point); color:#fff; }
+  .foot{ margin-top:26px; color:var(--sub); font-size:13px; }
+  .foot a{ color:var(--sub); }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="logo">말랑타워</div>
+    <div class="tag">한 손가락으로 쌓는 귀여운 동물 탑 🐻🐱🐶</div>
+    <div class="links">
+      <a class="btn store" href="https://apps.apple.com/kr/app/id6772278900">App Store에서 다운로드</a>
+      <a class="btn" href="/privacy">개인정보처리방침</a>
+      <a class="btn" href="/terms">서비스 이용약관</a>
+    </div>
+    <div class="foot">
+      © 2026 누림 (Nurim) · 문의 <a href="mailto:namong0519@gmail.com">namong0519@gmail.com</a>
+    </div>
+  </div>
+</body>
+</html>
